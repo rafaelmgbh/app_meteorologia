@@ -1,0 +1,22 @@
+{
+  "name": "app_meteorologia",
+  "version": "1.0.0",
+  "description": "Consulte a Previsão do Tempo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmgbh/app_meteorologia.git"
+  },
+  "author": "Rafael Santos de Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmgbh/app_meteorologia/issues"
+  },
+  "homepage": "https://github.com/rafaelmgbh/app_meteorologia#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
