@@ -12,7 +12,11 @@ request(url, function (err, response, body) {
  let dados = `Temperatura para a ${weather.name}:
  -------------------------------------------
  - Temperatura: ${weather.main.temp}ºc
+ - Min: ${weather.main.temp_min} ºc
+ - Max: ${weather.main.temp_max} ºc
  - Humidade: ${weather.main.humidity} %`;
+ 
+ 
  console.log(dados);
  }
 });
